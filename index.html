@@ -1,22 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portal das Letras</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="navbar">
-
-    </div>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Portal das Letras</div>
+      <ul class="nav-links-desktop">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Conteúdo</a></li>
+      </ul>
+      <div class="mobile-menu" id="mobileMenu">
+        <button class="close" id="closeButton">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="nav-links-mobile">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Conteúdo</a></li>
+        </ul>
+      </div>
+      <button class="hamburger" id="hamburgerButton">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
 
     <div id="container">
+      <div class="main">
+        <div id="m-left">
+          <p>Que tal mergulhar no mundo literário e aprender com isso?</p>
+        </div>
+        <div id="m-right">
+          <div>
+            <p>
+              O Portal das Letras é um website criado para te auxiliar no
+              aprendizado dos conteúdos literários exigidos na grade curricular
+              do ensino médio. Vamos lá?
+            </p>
+            <button>Começar</button>
+          </div>
+        </div>
+      </div>
 
+      <div class="sobre">
+        <div id="s-left">
+          <img src="img/0fb44231-6b84-44a1-bc10-a5c5de26b5df.png" alt="" />
+        </div>
+
+        <div id="s-right">
+          <div>
+            <h1>Sobre</h1>
+            <p>
+              O website ‘Portal das Letras’ surgiu a partir de um projeto de
+              iniciação científica, que visa ajudar no estudo do conteúdo de
+              literatura listado na grade curricular do ensino médio. Contando
+              com páginas listando as matérias de cada ano escolar, tudo é
+              apresentado de forma dinâmica.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="conteudos">
+        <div id="c-left">
+          <div>
+            <h1>Conteúdos</h1>
+            <p>
+              As matérias estão divididas nas 3 classes para facilitar a
+              localização do que você procura, basta clicar no botão da série
+              desejada e toda a grade curricular/conteúdo será mostrado.
+            </p>
+          </div>
+        </div>
+        <div id="c-right">
+          <div class="card1">
+            <div>
+              <h1>1º ano</h1>
+              <p>
+                Breve introdução sobre os conteúdos dispostos no primeiro ano do
+                ensino médio.
+              </p>
+
+              <button>Ver as matérias</button>
+            </div>
+          </div>
+
+          <div class="card2">
+            <div>
+              <h1>2º ano</h1>
+              <p>
+                Breve introdução sobre os conteúdos dispostos no primeiro ano do
+                ensino médio.
+              </p>
+
+              <button>Ver as matérias</button>
+            </div>
+          </div>
+
+          <div class="card3">
+            <div>
+              <h1>3º ano</h1>
+              <p>
+                Breve introdução sobre os conteúdos dispostos no primeiro ano do
+                ensino médio.
+              </p>
+
+              <button>Ver as matérias</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="conteudos1">
+        <div id="c1-left">
+          <div>
+            <h1>Conteúdo do 1º ano</h1>
+            <p>
+              A matéria durante o primeiro ano conta com o estudo de diversos
+              períodos literários, sendo ela:
+            </p>
+
+            <ul>
+              <li><a href="introLiteratura.html">Introdução à literatura</a></li>
+              <li><a href="poemaProsa.html">Poema e prosa</a></li>
+              <li id="glit"><a href="generosLiterarios.html">Os gêneros literários</a></li>
+              <li><a href="quinhentismo.html">Quinhentismo</a></li>
+              <li>Origem da literatura brasileira</li> 
+              <ul>
+                <li><a href="barroco.html">Barroco</a></li>
+                <li><a href="classicismo.html">Classicismo</a></li>
+              </ul>
+              <li><a href="trovadorismo.html">Trovadorismo</a></li>
+              <li><a href="humanismo.html">Humanismo</a></li>
+              <li><a href="arcadismo.html">Arcadismo</a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="c1-right">
+          <img src="img/primeiro.png" alt="" />
+        </div>
+      </div>
+
+      <div id="conteudos2">
+        <div id="c2-left">
+          <div>
+            <h1>Conteúdo do 2º ano</h1>
+            <p>
+              A matéria durante o primeiro ano conta com o estudo de diversos
+              períodos literários, sendo ela:
+            </p>
+
+            <ul>
+              <li>Romantismo</li>
+              <li>Realismo</li>
+              <li>Naturalismo</li>
+              <li>Parmasianismo</li>
+              <li>Simbolismo</li>
+            </ul>
+          </div>
+        </div>
+        <div id="c2-right">
+          <img src="img/segundo.png" alt="" />
+        </div>
+      </div>
+
+      <div id="conteudos3">
+        <div id="c3-left">
+          <div>
+            <h1>Conteúdo do 3º ano</h1>
+            <p>
+              A matéria durante o primeiro ano conta com o estudo de diversos
+              períodos literários, sendo ela:
+            </p>
+
+            <ul>
+              <li>Pré-modernismo</li>
+              <li>Modernismo</li>
+              <li>Pós-modernismo</li>
+            </ul>
+          </div>
+        </div>
+        <div id="c3-right">
+          <img src="img/terceiro.png" alt="" />
+        </div>
+      </div>
     </div>
 
+    <footer>
+      <center>IFTM Copyright &copy; 2024</center>
+    </footer>
 
-
-    <script src="script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
