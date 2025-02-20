@@ -560,6 +560,26 @@ pre {
    margin-bottom: 20px;
 }
 
+/* .linkBegin {
+  text-decoration: none;
+  height: 1px;
+}
+
+.backBeginInBlack {
+  color: var(--bege);
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: monospace;
+  font-size: 1.3em;
+}
+
+.backBeginInBege {
+  color: var(--black);
+  font-family: monospace;
+  font-size: 1.3em;
+  display: inline;
+} */
+
 /* Responsividade */
 @media screen and (max-width: 320px) {
   .navbar{
@@ -688,5 +708,6 @@ pre {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+
 
 }
