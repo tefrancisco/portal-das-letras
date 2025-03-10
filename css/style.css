@@ -1,6 +1,7 @@
 :root {
   --bege: #e8c39e;
   --black: #000000;
+  --red: #900020;
 }
 
 * {
@@ -34,6 +35,12 @@
   color: var(--bege);
 }
 
+.logo a:hover {
+  text-decoration: none;
+  color: var(--red);
+  transition: 0.5s all ease;
+}
+
 .nav-links-desktop {
   list-style: none;
   margin: 0;
@@ -54,7 +61,7 @@
 }
 
 .nav-links-desktop a:hover {
-  color: #24c31c;
+  color: #900020;
 }
 
 .mobile-menu {
@@ -84,6 +91,10 @@
 .nav-links-mobile li {
   border-bottom: 1px solid #787272;
   padding-bottom: 1.2rem;
+}
+
+.nav-links-mobile a:hover {
+  color: #900020;
 }
 
 .hamburger,
@@ -504,12 +515,17 @@
 
 #midContent > hr {
   width: 70%;
+  border-color: var(--red);
 }
 
 #midContent > main {
   text-align: justify;
   width: 70%;
   font-size: 1.3em;
+}
+
+#midContent > main > hr {
+  border-color: var(--red);
 }
 
 #midContent > figure {
@@ -521,6 +537,7 @@
 #midContent > figure > img {
   width: 100%;
   height: 100%;
+  border-bottom: 3px solid var(--red);
 }
 
 #midContent > main > p {
@@ -545,19 +562,38 @@ pre {
 .img-t {
   width: 50%;
   height: 50%;
+  border: 2px solid var(--red);
 }
 
 .black {
   color: var(--black);
 }
 
+.black:hover {
+  color: var(--red);
+  transition: 0.5s all ease;
+}
+
 .bg {
   color: var(--bege)
+}
+
+.bg:hover {
+  color: var(--red);
+  transition: 0.5s all ease;
 }
 
 .mg {
   margin-top: 20px;
    margin-bottom: 20px;
+}
+
+legend {
+  color: var(--red);
+}
+
+b {
+  color: var(--red);
 }
 
 /* .linkBegin {
