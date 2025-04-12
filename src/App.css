@@ -12,6 +12,10 @@
   color: var(--red);
 }
 
+.background-beige {
+  background-color: var(--bege);
+}
+
 @font-face {
   font-family: 'gothic', sans-serif;
   src: url('./assets/fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
@@ -141,4 +145,57 @@
 
 #about {
   background-color: var(--bege);
+}
+
+.card-button {
+  margin-top: 10px;
+  padding: 0.8em 1.1em;
+  border: 2px solid #000000;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #000000; 
+}
+
+.card-button a {
+  text-decoration: none;
+  color: var(--black);
+  transition: 0.5s all ease;
+}
+
+.card-button:hover a {
+  color: var(--bege);
+}
+
+.card-button:hover:before {
+  width: 105%;
+}
+
+.card-button:hover {
+  color: var(--bege);
+ }
+
+.card-button::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+  background: #000000;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.nav-links:hover {
+  color: var(--red);
+  transition: 1s;
 }

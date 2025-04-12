@@ -2,11 +2,11 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="h-screen w-screen flex flex-col md:flex-row overflow-hidden"
+      className="h-full w-screen flex flex-col md:flex-row overflow-hidden"
     >
       <div
         id="about-left"
-        className="h-1/2 w-full md:w-1/2 md:h-screen flex items-center justify-center"
+        className="h-1/2 w-full pb-10 pt-10 md:w-1/2 md:h-screen flex items-center justify-center"
       >
         
         <img src="../src/assets/img/if-black.png" className="" />
@@ -15,7 +15,7 @@ export const About = () => {
 
       <div
         id="about-right"
-        className="h-1/2 md:w-1/2 md:h-screen flex items-center justify-center mb-0"
+        className="h-1/2 md:w-1/2 pb-10 pt-10 md:h-screen flex items-center justify-center mb-0 overflow-hidden"
       >
         <div className="h-full md:w-1/2 text-center pl-5 pr-4 flex flex-col items-center justify-center mb-0">
           <h1 className="text-6xl mb-5 title-font text-black">Sobre</h1>

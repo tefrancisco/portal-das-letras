@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
                     <a href="#home" className="font-mono text-xl font-bold text-white"> {" "}
-                        pedro<span className="text-blue-500">.tech</span>
+                        <span className="text-beige nav-links text-3xl">Portal das Letras</span>
                         </a>
 
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
@@ -22,27 +22,27 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
 
                      <div className="hidden md:flex items-center space-x-8">
 
-                        <a href="#home" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#home" className="text-beige nav-links">
                             {""}
-                            Home
-                            {""}
-                        </a>
-
-                        <a href="#about" className="text-gray-300 hover:text-white transition-colors">
-                            {""}
-                            About
+                            Início
                             {""}
                         </a>
 
-                        <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#home" className="text-beige nav-links">
                             {""}
-                            Projects
+                            Sobre
                             {""}
                         </a>
 
-                        <a href="#Contact" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#home" className="text-beige nav-links">
                             {""}
-                            Contact
+                            Conteúdo
+                            {""}
+                        </a>
+
+                        <a href="#home" className="text-beige nav-links">
+                            {""}
+                            Referências
                             {""}
                         </a>
 
