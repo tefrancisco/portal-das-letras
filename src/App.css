@@ -1,3 +1,26 @@
+:root {
+  --bege: #e8c39e;
+  --black: #000000;
+  --red: #900020;
+}
+
+.text-beige {
+  color: var(--bege);
+}
+
+.text-dark-red {
+  color: var(--red);
+}
+
+@font-face {
+  font-family: 'gothic', sans-serif;
+  src: url('./assets/fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
+  
+
+  font-family: 'great-vibes';
+  src: url('./assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -32,4 +55,90 @@
 
 .read-the-docs {
   color: #888;
+}
+
+#home {
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.747)),
+    url(./assets/img/first-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#home-main > div > button {
+  margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid var(--bege);
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: var(--bege);
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+    background-color: #000000;
+  }
+
+  #home-main > div > button > a {
+    text-decoration: none;
+    color: var(--bege);
+  }
+
+#home-main > div > button:before{
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: var(--bege);
+  z-index: -1;
+}
+
+
+#home-main > div > button:hover> a{
+  color: var(--black);
+  transition: 0.5s all ease;
+}
+
+#home-main > div > button:hover, #m-right > div > button:focus{
+  color: var(--black);
+}
+
+#home-main > div > button:hover::before, #m-right > div > button:focus::before{
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+#home-main > div > button:active {
+  transform: scale(0.9);
+}
+
+#home-main > h1 {
+  color: var(--bege);
+}
+
+.title-font  {
+  font-family: great-vibes;
+}
+
+.p-font {
+  font-weight: 400;
+  font-style: normal;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#about {
+  background-color: var(--bege);
 }
