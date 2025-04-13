@@ -16,6 +16,10 @@
   background-color: var(--bege);
 }
 
+.background-dark-red {
+  background-color: var(--red);
+}
+
 @font-face {
   font-family: 'gothic', sans-serif;
   src: url('./assets/fonts/SpecialGothicExpandedOne-Regular.ttf') format('truetype');
@@ -196,6 +200,11 @@
 }
 
 .nav-links:hover {
+  color: var(--red);
+  transition: 1s;
+}
+
+.grade-content > ul > li:hover {
   color: var(--red);
   transition: 1s;
 }

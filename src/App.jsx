@@ -8,6 +8,9 @@ import { MobileMenu} from './components/MobileMenu'
 import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Cards } from './components/sections/Cards'
+import { First } from './components/sections/First'
+import { Second } from './components/sections/Second'
+import { Third } from './components/sections/Third'
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -23,6 +26,9 @@ function App() {
       <Home />
       <About />
       <Cards />
+      <First />
+      <Second />
+      <Third />
 
       </div>
     </>

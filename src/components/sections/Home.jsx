@@ -17,7 +17,7 @@ export const Home = () => {
           
           <div className="flex justify-center space-x-4">
 
-          <button id="home-button"><a href="#sobre">Continuar</a></button>
+          <button id="home-button"><a href="#about">Continuar</a></button>
 
           </div>
         </div>

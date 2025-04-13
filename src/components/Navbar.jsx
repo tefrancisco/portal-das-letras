@@ -28,19 +28,19 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             {""}
                         </a>
 
-                        <a href="#home" className="text-beige nav-links">
+                        <a href="#about" className="text-beige nav-links">
                             {""}
                             Sobre
                             {""}
                         </a>
 
-                        <a href="#home" className="text-beige nav-links">
+                        <a href="#cards" className="text-beige nav-links">
                             {""}
                             Conteúdo
                             {""}
                         </a>
 
-                        <a href="#home" className="text-beige nav-links">
+                        <a href="#references" className="text-beige nav-links">
                             {""}
                             Referências
                             {""}
