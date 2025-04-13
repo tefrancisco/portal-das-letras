@@ -9,7 +9,7 @@ export const About = () => {
         className="h-1/2 w-full pb-10 pt-10 md:w-1/2 md:h-screen flex items-center justify-center"
       >
         
-        <img src="../src/assets/img/if-black.png" className="" />
+        <img src="img/if-black.png" className="" />
 
       </div>
 

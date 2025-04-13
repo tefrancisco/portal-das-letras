@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -21,8 +22,8 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
         &times;
       </button>
 
-      <a
-        href="#home"
+      <Link to='/'
+        
         onClick={() => setMenuOpen(false)}
         className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300
                     ${
@@ -33,7 +34,7 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
             `}
       >
         Home
-      </a>
+      </Link>
       <a
         href="#about"
         onClick={() => setMenuOpen(false)}

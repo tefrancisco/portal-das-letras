@@ -21,7 +21,7 @@ export const Third = () => {
                             >
                                 <span>Pré-modernismo (1890 - 1914)</span>
                                 <img
-                                    src="../src/assets/img/click-here.gif"
+                                    src="img/click-here.gif"
                                     className="w-20 h-20"
                                 />
                             </a>
@@ -84,7 +84,7 @@ export const Third = () => {
                 className="h-1/2 md:w-[30%] pb-10 pt-10 md:h-screen flex items-center justify-center mb-0 overflow-hidden"
             >
 
-                <img src="../src/assets/img/terceiro.png" className="" />
+                <img src="img/terceiro.png" className="" />
 
             </div>
         </section>

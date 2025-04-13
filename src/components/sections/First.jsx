@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const First = () => {
     return (
         <section
@@ -16,12 +18,11 @@ export const First = () => {
                     <ul className="text-2xl mt-10 list-disc list-inside text-black p-font">
                         <li className="pl-4">
                             <a
-                                href="1ano/introLiteratura.html"
                                 className="inline-flex items-center hover:text-red-800 hover:underline"
                             >
-                                <span>Introdução à literatura</span>
+                                <span><Link to='/literatura/introducao'>Introdução à Literatura</Link></span>
                                 <img
-                                    src="../src/assets/img/click-here.gif"
+                                    src="img/click-here.gif"
                                     className="w-20 h-20"
                                 />
                             </a>
@@ -215,7 +216,7 @@ export const First = () => {
                 className="h-1/2 md:w-[30%] pb-10 pt-10 md:h-screen flex items-center justify-center mb-0 overflow-hidden"
             >
 
-                <img src="../src/assets/img/primeiro.png" className="" />
+                <img src="img/primeiro.png" className="" />
 
             </div>
         </section>

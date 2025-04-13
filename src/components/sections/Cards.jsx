@@ -11,7 +11,7 @@ export const Cards = () => {
 
       <div class="max-w-sm border border-red-950 rounded-lg shadow-sm background-beige">
         <a href="#">
-          <img class="rounded-t-lg w-full h-full" src="../src/assets/img/gif-card-1.gif" alt="" />
+          <img class="rounded-t-lg w-full h-full" src="img/gif-card-1.gif" alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -24,7 +24,7 @@ export const Cards = () => {
       
       <div class="max-w-sm border border-red-950 rounded-lg shadow-sm background-beige">
         <a href="#">
-          <img class="rounded-t-lg w-full h-full" src="../src/assets/img/gif-card-2.gif" alt="" />
+          <img class="rounded-t-lg w-full h-full" src="img/gif-card-2.gif" alt="" />
         </a>
         <div class="p-5">
           <a href="#">
@@ -37,7 +37,7 @@ export const Cards = () => {
 
       <div class="max-w-sm border border-red-950 rounded-lg shadow-sm background-beige">
         <a href="#">
-          <img class="rounded-t-lg w-full h-full" src="../src/assets/img/gif-card-3.gif" alt="" />
+          <img class="rounded-t-lg w-full h-full" src="img/gif-card-3.gif" alt="" />
         </a>
         <div class="p-5">
           <a href="#">

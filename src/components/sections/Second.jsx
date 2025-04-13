@@ -21,7 +21,7 @@ export const Second = () => {
                             >
                                 <span>Romantismo (1836 - 1880)</span>
                                 <img
-                                    src="../src/assets/img/click-here.gif"
+                                    src="img/click-here.gif"
                                     className="w-20 h-20"
                                 />
                             </a>
@@ -128,7 +128,7 @@ export const Second = () => {
                 className="h-1/2 md:w-[30%] pb-10 pt-10 md:h-screen flex items-center justify-center mb-0 overflow-hidden"
             >
 
-                <img src="../src/assets/img/segundo.png" className="" />
+                <img src="img/segundo.png" className="" />
 
             </div>
         </section>
