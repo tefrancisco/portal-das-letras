@@ -6,6 +6,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path='/literatura/:contentId' element={<Page />} />
+      <Route path='/poema' element={<Page contentId="poema" />} />
     </Routes>
   );
 }

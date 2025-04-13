@@ -1,10 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import contentData from '../data/contentData';
 
 function Page() {
   const { contentId } = useParams();
   const content = contentData[contentId];
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' }); // Reseta o scroll para o topo
+  }, [contentId]); // Atualiza sempre que contentId mudar
 
   if (!content) {
     return <h2>Conteúdo não encontrado!</h2>;
@@ -15,10 +20,12 @@ function Page() {
       id='page'
       className='min-h-screen w-screen flex justify-center relative mt-16 bg-white'
     >
-      <div className='text-up z-10 px-4 md:w-[70%] bg-pink-100' id='page-top'>
+      <div className='text-up z-10 px-4 md:w-[70%] bg-white' id='page-main'>
         
-        {/* Título da Página */}
-        <h1 className='text-center font-mono font-bold text-4xl md:text-5xl mb-6 bg-clip-text leading-right mt-6 text-black'>
+       <header>
+
+         {/* Título da Página */}
+         <h1 className='text-center font-mono font-bold text-4xl md:text-5xl mb-6 bg-clip-text leading-right mt-6 text-black'>
           {content.title}
         </h1>
 
@@ -29,17 +36,20 @@ function Page() {
         <p className='md:text-2xl text-xl mb-8 w-full mx-auto font-weight-400 p-font text-black text-center'>
           {content.quote.author}
         </p>
+        
+       </header>
 
         <hr className='text-dark-red' />
 
         {/* Imagem Principal */}
-        <figure className='w-full max-h:md:h-2/7 mt-2'>
+        <figure className='w-full md:h-[500px] mt-2'>
           <img src={content.image} alt={content.title} className='w-full h-full' />
         </figure>
 
         <hr className='text-dark-red' />
 
-        {/* Renderizando Seções */}
+        <main>
+          {/* Renderizando Seções */}
         {content.sections.map((section, index) => (
           <section key={index}>
             <h2 className='font-mono font-bold text-black text-3xl mt-5 mb-2'>
@@ -52,6 +62,11 @@ function Page() {
               </p>
             ))}
 
+            {/* Texto destacado em negrito */}
+            {section.highlight && (
+              <p className='text-dark-red font-mono font-bold text-xl mb-4'>{section.highlight}</p>
+            )}
+
             {/* Lista dentro da seção */}
             {section.list && (
               <ul className='text-black font-normal text-xl list-disc list-inside'>
@@ -60,6 +75,27 @@ function Page() {
                 ))}
               </ul>
             )}
+
+             {/* Renderizando Exemplos */}
+             {section.examples && section.examples.map((example, e) => (
+              <div key={e} className='bg-gray-100 p-4 border-l-4 border-red-900 mt-4 mb-10'>
+                <h3 className='font-mono font-semibold text-black text-2xl mb-3'>{example.title}</h3>
+
+                {/* Verificando se o exemplo é prosa (string) ou poesia (array) */}
+                {typeof example.content === 'string' ? (
+                  <p className='text-black font-normal text-xl text-justify'>{example.content}</p>
+                ) : (
+                  <div className='flex flex-col items-center'>
+                    {example.content.map((line, i) => (
+                      <p key={i} className={`text-black font-normal text-xl text-center ${line === '' ? 'mt-6' : 'mt-1'}`}>
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+
 
             {/* Imagem dentro da seção */}
             {section.image && (
@@ -83,6 +119,12 @@ function Page() {
                   </p>
                 ))}
 
+                {/* Texto destacado em negrito */}
+                {subsection.highlight && (
+                  <p className='text-dark-red font-bold text-xl mb-4'>{subsection.highlight}</p>
+                )}
+
+
                 {/* Imagem dentro da subsection */}
                 {subsection.image && (
                   <div className='flex flex-col justify-center items-center w-full md:h-2/7 overflow-hidden my-5 text-black'>
@@ -101,6 +143,15 @@ function Page() {
                     ))}
                   </ul>
                 )}
+
+                {/* Múltiplos exemplos dentro da subsection */}
+                {subsection.examples && subsection.examples.map((example, e) => (
+                  <div key={e} className='bg-gray-100 p-4 border-l-4 border-gray-400 mt-4'>
+                    <h3 className='font-mono font-semibold text-black text-2xl'>{example.title}</h3>
+                    <p className='text-black font-normal text-xl'>{example.content}</p>
+                  </div>
+                ))}
+
               </div>
             ))}
 
@@ -115,11 +166,16 @@ function Page() {
             )}
           </section>
         ))}
+
+        </main>
+
+        <hr className='text-dark-red mb-10' />
+        
       </div>
 
-      <hr className='text-dark-red' />
-
     </section>
+
+    
   );
 }
 

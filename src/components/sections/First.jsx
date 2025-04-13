@@ -34,7 +34,7 @@ export const First = () => {
                                 href="1ano/poemaProsa.html"
                                 className="inline-flex items-center space-x-2 text-black hover:text-red-800 hover:underline"
                             >
-                                <span>Poemas</span>
+                                <span><Link to='/literatura/poema'>Poemas</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"

@@ -15,7 +15,7 @@ export const Cards = () => {
         </a>
         <div class="p-5">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-bold= tracking-tight text-black">1º ano</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">1º ano</h5>
           </a>
           <p class="mb-3 font-normal text-black text-justify">Começaremos com uma introdução à literatura, apresentação aos poemas e aos primeiros períodos literários.</p>
           <button className="card-button"><a href="#first">Ver conteúdos</a></button>
