@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export const Second = () => {
     return (
         <section
@@ -19,7 +21,7 @@ export const Second = () => {
                                 href="1ano/introLiteratura.html"
                                 className="inline-flex items-center hover:text-red-700 hover:underline"
                             >
-                                <span>Romantismo (1836 - 1880)</span>
+                                <span><Link to='/literatura/romantismo'>Romantismo (1836 - 1880)</Link></span>
                                 <img
                                     src="img/click-here.gif"
                                     className="w-20 h-20"
@@ -33,7 +35,7 @@ export const Second = () => {
                                 href="1ano/poemaProsa.html"
                                 className="inline-flex items-center space-x-2 hover:text-red-700 hover:underline"
                             >
-                                <span>Realismo (1881 - 1893)</span>
+                                <span><Link to='/literatura/realismo'>Realismo (1881 - 1893)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -55,7 +57,7 @@ export const Second = () => {
                                 href="1ano/generosLiterarios.html"
                                 className="inline-flex items-center space-x-2 hover:text-red-700 hover:underline"
                             >
-                                <span>Naturalismo (1880 - 1893)</span>
+                                <span><Link to='/literatura/naturalismo'>Naturalismo (1880 - 1893)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -77,7 +79,7 @@ export const Second = () => {
                                 href="1ano/trovadorismo.html"
                                 className="inline-flex items-center space-x-2 hover:text-red-700 hover:underline"
                             >
-                                <span>Parnasianismo (1850 - 1900)</span>
+                                <span><Link to='/literatura/parnasianismo'>Parnasianismo (1850 - 1900)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -99,7 +101,7 @@ export const Second = () => {
                                 href="1ano/humanismo.html"
                                 className="inline-flex items-center space-x-2 hover:text-red-700 hover:underline"
                             >
-                                <span>Simbolismo (1890 - 1922)</span>
+                                <span><Link to='/literatura/simbolismo'>Simbolismo (1890 - 1922)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"

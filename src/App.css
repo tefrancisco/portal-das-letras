@@ -208,3 +208,7 @@
   color: var(--red);
   transition: 1s;
 }
+
+.red-ul::marker {
+  color: var(--red);
+}
