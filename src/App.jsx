@@ -12,6 +12,7 @@ import { First } from './components/sections/First';
 import { Second } from './components/sections/Second';
 import { Third } from './components/sections/Third';
 import Page from './components/pages/Page'; // Importando o componente de páginas dinâmicas
+import References from './components/pages/References'; // Importando o componente de referências
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -39,6 +40,7 @@ function App() {
 
           {/* Rotas Dinâmicas - Conteúdo de Literatura */}
           <Route path='/literatura/:contentId' element={<Page />} />
+          <Route path='/info/:contentId' element={<References />} />
           
         </Routes>
       </>

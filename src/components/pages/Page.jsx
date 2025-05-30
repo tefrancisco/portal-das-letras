@@ -147,6 +147,7 @@ function Page() {
                         </p>
                       ))}
 
+
                     {/* Texto destacado em negrito */}
                     {subsection.highlight && (
                       <p className="text-dark-red font-bold text-xl mb-4">

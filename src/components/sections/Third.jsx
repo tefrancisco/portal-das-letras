@@ -21,7 +21,7 @@ export const Third = () => {
                                 href="1ano/introLiteratura.html"
                                 className="inline-flex items-center hover:text-red-800 hover:underline"
                             >
-                                <span><Link to='premodernismo'>Pré-modernismo (1890 - 1914)</Link></span>
+                                <span><Link to='/literatura/premodernismo'>Pré-modernismo (1890 - 1914)</Link></span>
                                 <img
                                     src="img/click-here.gif"
                                     className="w-20 h-20"
@@ -35,7 +35,7 @@ export const Third = () => {
                                 href="1ano/poemaProsa.html"
                                 className="inline-flex items-center space-x-2 text-black hover:text-red-800 hover:underline"
                             >
-                                <span><Link to='modernismo'>Modernismo (1922 - 1960)</Link></span>
+                                <span><Link to='/literatura/modernismo'>Modernismo (1922 - 1960)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"
@@ -57,7 +57,7 @@ export const Third = () => {
                                 href="1ano/generosLiterarios.html"
                                 className="inline-flex items-center space-x-2 text-black hover:text-red-800 hover:underline"
                             >
-                                <span><Link to='posmodernismo'>Pós-modernismo (1960 - tempos atuais)</Link></span>
+                                <span><Link to='/literatura/posmodernismo'>Pós-modernismo (1960 - tempos atuais)</Link></span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     className="h-5 w-5"

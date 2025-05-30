@@ -41,7 +41,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                             {""}
                         </a>
 
-                        <a href="#references" className="text-beige nav-links">
+                        <a href="/info/referencias" className="text-beige nav-links">
                             {""}
                             Referências
                             {""}

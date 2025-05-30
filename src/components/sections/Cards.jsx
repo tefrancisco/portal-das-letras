@@ -17,7 +17,7 @@ export const Cards = () => {
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">1º ano</h5>
           </a>
-          <p class="mb-3 font-normal text-black text-justify">Começaremos com uma introdução à literatura, apresentação aos poemas e aos primeiros períodos literários.</p>
+          <p class="mb-3 font-normal text-black text-justify">Começaremos com uma introdução à literatura, apresentação aos poemas e primeiros períodos literários.</p>
           <button className="card-button"><a href="#first">Ver conteúdos</a></button>
         </div>
       </div>
@@ -43,7 +43,7 @@ export const Cards = () => {
           <a href="#">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">3º ano</h5>
           </a>
-          <p class="mb-3 font-normal text-black text-justify">Por último, daremos ênfase aos períodos literários modernistas, passando desde o pré ao pós-modernismo.</p>
+          <p class="mb-3 font-normal text-black text-justify">Por último, daremos ênfase aos períodos literários modernistas, abordando do pré ao pós-modernismo.</p>
           <button className="card-button"><a href="#third">Ver conteúdos</a></button>
         </div>
       </div>

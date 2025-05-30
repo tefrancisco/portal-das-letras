@@ -23,7 +23,7 @@ export const About = () => {
           <p className="text-2xl mb-10 max-w-lg mx-auto font-weight-400 text-justify p-font text-black">
             O website ‘Portal das Letras’ é produto de um projeto de iniciação
             científica do Instituto Federal do Triângulo Mineiro, e tem como
-            objetivo auxiliar no estudo dos conteúdos de literaturas presentes
+            objetivo auxiliar no estudo dos conteúdos de literatura presentes
             na grade curricular do ensino médio, tudo em um só lugar e com fácil
             acesso.
           </p>

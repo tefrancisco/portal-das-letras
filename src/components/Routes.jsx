@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Page from './pages/Page';
+import References from './pages/References';
 
 function AppRoutes() {
   return (
@@ -9,6 +10,7 @@ function AppRoutes() {
       // Rotas dos conteúdos do primeiro ano
 
       <Route path='/literatura/:contentId' element={<Page />} />
+      <Route path='/info/:contentId' element={<References />} />
       <Route path='/poema' element={<Page contentId="poema" />} />
       <Route path='/generosliterarios' element={<Page contentId="generosliterarios"/>}/>
       <Route path='/trovadorismo' element={<Page contentId="trovadorismo"/>}/>
@@ -32,6 +34,11 @@ function AppRoutes() {
       <Route path='/premodernismo' element={<Page contentId="premodernismo" />} />
       <Route path='/modernismo' element={<Page contentId="modernismo" />} />
       <Route path='/posmodernismo' element={<Page contentId="posmodernismo" />} />
+
+      // Rota para a página de referências
+
+      <Route path='/referencias' element={<References contentId="referencias" />} />
+
 
     </Routes>
   );
