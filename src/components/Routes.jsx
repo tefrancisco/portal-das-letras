@@ -10,7 +10,7 @@ function AppRoutes() {
       // Rotas dos conteúdos do primeiro ano
 
       <Route path='/literatura/:contentId' element={<Page />} />
-      <Route path='/info/:contentId' element={<References />} />
+      <Route path='/info/' element={<References />} />
       <Route path='/poema' element={<Page contentId="poema" />} />
       <Route path='/generosliterarios' element={<Page contentId="generosliterarios"/>}/>
       <Route path='/trovadorismo' element={<Page contentId="trovadorismo"/>}/>
