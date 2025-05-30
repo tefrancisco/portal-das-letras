@@ -1310,7 +1310,7 @@ const contentData = {
       {
         title: "Contexto histórico",
         content: [
-          "O Arcadismo, também conhecido como Neoclassicismo, surgiu no século XVIII como uma reação ao Barroco. Este movimento buscou inspiração na simplicidade e na beleza da vida pastoril, além dos ideais clássicos de equilíbrio e harmonia. O movimento literário possui ideal Iluminista, um movimento intelectual caracterizado por priorizar o racionalismo em detrimento da religiosidade. Acompanham nesse período, acontecimento históricos importantes para o movimento, como a queda das monarquias absolutistas junto da ascensão da burguesia, a Revolução Francesa impulsionada pelo Ilimunismo, e o grande desenvolvimento tecnológico acompanhado de um êxodo rural em larga escala. Em Portugal, o Arcadismo acontece entre 1756 e 1825, e no Brasil, no período entre 1768 e 1808.  ",
+          "O Arcadismo, também conhecido como Neoclassicismo, surgiu no século XVIII como uma reação ao Barroco. Este movimento buscou inspiração na simplicidade e na beleza da vida pastoril, além dos ideais clássicos de equilíbrio e harmonia. O movimento literário possui ideal Iluminista, um movimento intelectual caracterizado por priorizar o racionalismo em detrimento da religiosidade. Acompanham nesse período, acontecimento históricos importantes para o movimento, como a queda das monarquias absolutistas junto da ascensão da burguesia, a Revolução Francesa impulsionada pelo Iluminismo, e o grande desenvolvimento tecnológico acompanhado de um êxodo rural em larga escala. Em Portugal, o Arcadismo acontece entre 1756 e 1825, e no Brasil, no período entre 1768 e 1808.  ",
         ],
       },
       {
