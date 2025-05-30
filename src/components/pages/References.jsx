@@ -148,7 +148,7 @@ function References() {
 
 
                         BRANDINO, Luiza. "Naturalismo"; Brasil Escola. Disponível em:
-                        <a href="https://brasilescola.uol.com.br/literatura/o-naturalismo.htm"><span className="text-blue-600"> https://www.todamateria.com.br/trovadorismo/ </span></a>. Acesso em 15 de janeiro de 2025.
+                        <a href="https://brasilescola.uol.com.br/literatura/o-naturalismo.htm"><span className="text-blue-600"> https://brasilescola.uol.com.br/literatura/o-naturalismo.htm </span></a>. Acesso em 15 de janeiro de 2025.
                     </p>
 
                       <p
