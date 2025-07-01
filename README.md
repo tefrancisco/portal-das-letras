@@ -1,12 +1,15 @@
-# React + Vite
+# Portal das Letras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse website é produto de um projeto de iniciação científica realizado durante minha formação ténica no Instituto Federal do Triângulo Mineiro. Sua principal finalidade é auxiliar estudantes do ensino técnico integrado no estudo dos conteúdos de literatura exigidos na grade curricular, sendo apresentados de forma sucinta e amigável. As tecnologias utilizadas na produção do site foram:
 
-Currently, two official plugins are available:
+    React
+    TailwindCSS
+    CSS
+    Javascript
+    HTML
+    XML
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Atualmente, o site se encontra hospedado no endereço:
 
-## Expanding the ESLint configuration
+- <a href="https://portal-das-letras-rv.vercel.app/">https://portal-das-letras-rv.vercel.app/</a>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
