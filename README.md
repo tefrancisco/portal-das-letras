@@ -29,6 +29,8 @@ Para acessar o <i>website</i> de forma online, basta acessar:
 
  * Link de acesso via Vercel: <a href="https://portal-das-letras-rv.vercel.app/">https://portal-das-letras-rv.vercel.app/</a>
 
+ <hr>
+
 ### Acessar de forma local (instalação)
 
 Para acessar a aplicação de forma, local, siga esses passos:
@@ -60,5 +62,23 @@ E pronto! O ambiente virtual deve estar disponível no seu navegador através da
 ```
 http://localhost:5173/
 ```
+ <hr>
+
+## Versionamento
+
+1.0.0.0
+
+## Autores
+
+### Bolsista e desenvolvedor
+
+* **Francisco Tomaz Estevão**
+
+### Orientador
+
+* **Henrique de Oliveira Moreira**
+
+Por favor nos siga no GitHub e se junte a nós!
+Muito obrigado pela visita e bom aprendizado literário!
 
 
