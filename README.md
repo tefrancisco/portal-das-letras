@@ -19,7 +19,46 @@ Aqui estão as tecnologias utilizadas nesse projeto.
  * GitHub
  * Vercel
 
-Atualmente, o site se encontra hospedado no endereço:
+## Como acessar o projeto
 
-- <a href="https://portal-das-letras-rv.vercel.app/">https://portal-das-letras-rv.vercel.app/</a>
+Seguem as 2 maneiras de acessar o projeto e usufruir da estrutura construída.
+
+### Acessar de forma online
+
+Para acessar o <i>website</i> de forma online, basta acessar:
+
+ * Link de acesso via Vercel: <a href="https://portal-das-letras-rv.vercel.app/">https://portal-das-letras-rv.vercel.app/</a>
+
+### Acessar de forma local (instalação)
+
+Para acessar a aplicação de forma, local, siga esses passos:
+
+Clone o repositório em sua máquina utilizando o comando:
+
+```
+git clone https://github.com/tefrancisco/portal-das-letras.git
+```
+
+Acesse o repositório com o comando:
+
+```
+cd portal-das-letras
+```
+
+Instale as dependências digitando:
+
+```
+npm install
+```
+Execute a aplicação localmente com:
+
+```
+npm run dev
+```
+E pronto! O ambiente virtual deve estar disponível no seu navegador através da rota indicada no seu prompt de comando, que por padrão é:
+
+```
+http://localhost:5173/
+```
+
 
