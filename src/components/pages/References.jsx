@@ -196,6 +196,15 @@ function References() {
                         <a href="https://www.todamateria.com.br/pos-modernismo/"><span className="text-blue-600"> https://www.todamateria.com.br/pos-modernismo/ </span></a>.  Acesso em: 20 fev. 2025 
                     </p>
 
+                     <p
+                        className="text-black font-normal text-xl mb-10 text-justify"
+                    >
+
+
+                        React. Disponível em: 
+                        <a href="https://react.dev/"><span className="text-blue-600"> https://react.dev/ </span></a>.  Acesso em: 25 març. 2025 
+                    </p>
+
 
 
                     
